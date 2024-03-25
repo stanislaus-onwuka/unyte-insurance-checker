@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import SearchIcon from '../../assets/icons/search.svg'
 import { Link } from 'react-router-dom'
-import CarImg from '../../assets/images/Toyota_Corolla.jpg'
 import data from "../../api/products.json"
 import {classNames} from "../../utils/functions"
 import useDebounce from '../../hooks/useDebounce'
@@ -27,7 +26,7 @@ function ProductSearch() {
           <Link to={`/view/${result.pid}`} key={idx}>
             <div className='flex gap-3 p-2 border-b-[1px] border-base-light-green duration-150 hover:bg-base-light-green'>
               <div className='max-w-[80px]'>
-                <img src={CarImg} alt='Car'/>
+                <img src={result.imgUrl} alt={ result.model } />
               </div>
               <div>
                 <h3 className='text-base'>{ result.model }</h3>

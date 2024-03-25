@@ -1,1 +1,1 @@
-export const excludeAttributes = ['insurable', 'model', 'description', 'pid']
+export const excludeAttributes = ['insurable', 'model', 'description', 'pid', 'imgUrl']

@@ -1,10 +1,9 @@
 import React from 'react'
 import { useSearchParams } from 'react-router-dom'
-import CarLink from '../../assets/images/Toyota_Corolla.jpg'
 import { Link } from 'react-router-dom'
 
 function ProductItem({ product, compareMode = false }) {
-    const { pid, model, category } = product
+    const { pid, model, category, imgUrl } = product
     // eslint-disable-next-line
     const [ _ , setSearchParams] = useSearchParams();
 
@@ -17,7 +16,7 @@ function ProductItem({ product, compareMode = false }) {
             <button onClick={handleCompareNavigation}>
                 <div className="relative rounded-[10px] border-[1.5px]">
                     <div className='object-fill rounded-t-[10px] h-full'>
-                        <img src={CarLink} className='rounded-[10px] h-full' alt='car' />
+                        <img src={imgUrl} className='rounded-[10px] h-full' alt={model} />
                     </div>
                     <div className="absolute bottom-0 w-full px-[14px] py-[18px] bg-gradient-to-b from-transparent to-base-black rounded-b-[10px]">
                         <div className=' mb-[30px]'>
@@ -33,7 +32,7 @@ function ProductItem({ product, compareMode = false }) {
     return (
         <div className="relative rounded-[10px] border-[1.5px]">
             <div className='object-fill rounded-t-[10px] h-full'>
-                <img src={CarLink} className='rounded-[10px] h-full' alt='car' />
+                <img src={imgUrl} className='rounded-[10px] h-full' alt={model} />
             </div>
             <div className="absolute bottom-0 w-full px-[14px] py-[18px] bg-gradient-to-b from-transparent to-base-black rounded-b-[10px]">
                 <div className=' mb-[30px]'>

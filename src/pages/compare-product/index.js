@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
-import CarImage from '../../assets/images/Toyota_Corolla.jpg'
 import ChevronLeft from '../../assets/icons/chevron-left.svg'
-import data from '../../api/products.json'
 import { getProductAttributes } from '../../utils/functions'
 import { excludeAttributes } from '../../constants/excludedAttributes'
 import ProductAttribute from '../../components/product-attribute'
@@ -10,6 +8,8 @@ import CheckIcon from '../../assets/icons/check-icon.svg'
 import WrongIcon from '../../assets/icons/wrong-icon.svg'
 import RecompareIcon from '../../assets/icons/refresh-icon.svg'
 import ProductItem from '../../components/product-item'
+import data from '../../api/products.json'
+
 
 function CompareProduct() {
     // Import data
@@ -79,7 +79,7 @@ function CompareProduct() {
                 <div className='flex gap-6 mb-24 sm:gap-11'>
                     <div>
                         <div className='max-w-[500px]'>
-                            <img src={CarImage} alt='Car'/>
+                            <img src={currentProduct.imgUrl} alt={ currentProduct.model } />
                         </div>
                         <div>
                             <h3 className='text-xl text-base-black font-bold my-8 text-center sm:text-3xl sm:my-11 sm:text-left'>{ currentProduct.model }</h3>
@@ -106,7 +106,7 @@ function CompareProduct() {
                     <h1 className='text-2xl self-center sm:text-4xl'>Vs</h1>
                     <div>
                         <div className='max-w-[500px]'>
-                            <img src={CarImage} alt='Car'/>
+                            <img src={productToCompare.imgUrl} alt={ productToCompare.model } />
                         </div>
                         <div>
                             <h3 className='text-xl text-base-black font-semibold my-8 text-center sm:text-3xl sm:my-11 sm:text-left'>{ productToCompare.model }</h3>
@@ -141,8 +141,6 @@ function CompareProduct() {
         )
     }
 
-
-    
 
     return (
         <div className='px-[6.5%]'>

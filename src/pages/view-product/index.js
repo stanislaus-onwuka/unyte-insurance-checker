@@ -1,7 +1,6 @@
 import React from 'react'
 import CompareIcon from "../../assets/icons/compare-icon.svg"
 import ChevronLeft from "../../assets/icons/chevron-left.svg"
-import CarImage from "../../assets/images/Toyota_Corolla.jpg"
 import UnyteUnlock from "../../assets/icons/not-insured-icon.svg"
 import UnyteLock from "../../assets/icons/insured-icon.svg"
 import { Link, useParams } from 'react-router-dom'
@@ -34,10 +33,10 @@ function ViewProduct() {
                 </div>
                 <span>Homepage</span>
             </Link>
-            <section className='flex flex-col gap-16 px-[6.5%] md:flex-row'>
-                <div className='flex flex-col'>
-                    <div>
-                        <img src={CarImage} alt='car'/> 
+            <section className='flex flex-col gap-16 px-[6.5%] lg:flex-row'>
+                <div className='flex flex-col w-full max-w-full lg:max-w-[560px]'>
+                    <div className='w-full '>
+                        <img src={currentProduct.imgUrl} className='w-full' alt={ currentProduct.model } /> 
                     </div>
                     <Link to={`/compare/${pid}`} className='flex items-center gap-[10px] rounded-[24px] bg-base-green py-3 px-[18px] mt-[18px] self-center'>
                         <div>

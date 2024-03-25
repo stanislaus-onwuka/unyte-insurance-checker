@@ -14,7 +14,7 @@ function Navigation() {
       </Link>
       <a href="https://ng.unyte.africa/company/contact" target="_blank" className="bg-base-green flex items-center gap-[10px] rounded-[40px] py-2 px-[14px] md:py-3 md:px-[18px]" rel="noreferrer">
         <h3 className="font-body text-base font-medium text-base-white md:text-lg">Get Started</h3>
-        <img src={ArrowUpRight} alt="Unyte Logo" className="md:w-3" />
+        <img src={ArrowUpRight} alt="Arrow" className="w-3 md:w-6" />
       </a>
     </nav>
   );

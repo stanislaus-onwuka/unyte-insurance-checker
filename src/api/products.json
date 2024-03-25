@@ -12,7 +12,8 @@
           "engine_size": "2.0L",
           "doors": 4,
           "transmission": "Automatic",
-          "pid": "corolla"
+          "pid": "corolla",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387328/Unyte/Corolla_xxfk38.png"
       },
       {
           "make": "Ford",
@@ -26,7 +27,8 @@
           "engine_size": "2.0L",
           "doors": 4,
           "transmission": "Automatic",
-          "pid": "mustang"
+          "pid": "mustang",
+          "imgUrl" : "https://res.cloudinary.com/ecx/image/upload/v1711387324/Unyte/mustang_yfbs3p.png"
       },
       {
           "make": "Tesla",
@@ -40,7 +42,8 @@
           "engine_size": "2.0L",
           "doors": 4,
           "transmission": "Automatic",
-          "pid": "model-s"
+          "pid": "model-s",
+          "imgUrl" : "https://res.cloudinary.com/ecx/image/upload/v1711387324/Unyte/Tesla_b4cdux.png"
       },
       {
           "brand": "Apple",
@@ -54,7 +57,8 @@
           "screen_size": "6.1 inches",
           "battery": "3110mAh",
           "network": "5G",
-          "pid": "iphone-13"
+          "pid": "iphone-13",
+          "imgUrl" : "https://res.cloudinary.com/ecx/image/upload/v1711387333/Unyte/iPhone_13_xucieg.png"
       },
       {
           "brand": "Samsung",
@@ -68,7 +72,8 @@
           "screen_size": "6.1 inches",
           "battery": "3110mAh",
           "network": "5G",
-          "pid": "galaxy-s21"
+          "pid": "galaxy-s21",
+          "imgUrl" : "https://res.cloudinary.com/ecx/image/upload/v1711387331/Unyte/galaxy_s21_n09hnw.png"
       },
       {
           "brand": "Google",
@@ -82,7 +87,8 @@
           "screen_size": "6.1 inches",
           "battery": "3110mAh",
           "network": "5G",
-          "pid": "pixel-6"
+          "pid": "pixel-6",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387324/Unyte/pixel_6_bjfrun.png"
       },
       {
           "brand": "Apple",
@@ -96,7 +102,8 @@
           "cpu": "Intel Core i7",
           "ram": "16GB",
           "screen_size": "13.3 inches",
-          "pid": "macbook-air"
+          "pid": "macbook-air",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387336/Unyte/macbook_yheoym.webp"
       },
       {
           "brand": "Dell",
@@ -110,7 +117,8 @@
           "cpu": "Intel Core i7",
           "ram": "16GB",
           "screen_size": "13.3 inches",
-          "pid":"xps-13"
+          "pid":"xps-13",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387331/Unyte/xps_13_h63ekh.png"
       },
       {
           "brand": "Lenovo",
@@ -124,7 +132,8 @@
           "cpu": "Intel Core i7",
           "ram": "16GB",
           "screen_size": "13.3 inches",
-          "pid" : "thinkpad-x1-carbon"
+          "pid" : "thinkpad-x1-carbon",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387334/Unyte/Lenovo_zbme7c.png"
       },
       {
           "brand": "Canon",
@@ -138,7 +147,8 @@
           "lens": "24-105mm",
           "video_resolution": "4K",
           "weight": "738g",
-          "pid": "eos-r5"
+          "pid": "eos-r5",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387326/Unyte/Canon_EOS_R5_gdzb10.png"
       },
       {
           "brand": "Nikon",
@@ -152,7 +162,8 @@
           "lens": "24-105mm",
           "video_resolution": "4K",
           "weight": "738g",
-          "pid": "z7-ii"
+          "pid": "z7-ii",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387323/Unyte/Nikon_bi2izv.png"
       },
       {
           "brand": "Sony",
@@ -166,7 +177,8 @@
           "lens": "24-105mm",
           "video_resolution": "4K",
           "weight": "738g",
-          "pid": "a7r-iv"
+          "pid": "a7r-iv",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387326/Unyte/Sony_ghkwzh.png"
       },
       {
           "brand": "Samsung",
@@ -180,7 +192,8 @@
           "energy_rating": "A++",
           "no_of_shelves": 5,
           "water_dispenser": true,
-          "pid" : "rf28r7351sr"
+          "pid" : "rf28r7351sr",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711386549/Unyte/samsung.webp"
       },
       {
           "brand": "LG",
@@ -194,7 +207,8 @@
           "energy_rating": "A++",
           "no_of_shelves": 5,
           "water_dispenser": true,
-          "pid" : "lfxs28968s"
+          "pid" : "lfxs28968s",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387335/Unyte/Lg_evx3h7.png"
       },
       {
           "brand": "Whirlpool",
@@ -208,7 +222,8 @@
           "energy_rating": "A++",
           "no_of_shelves": 5,
           "water_dispenser": true,
-          "pid" : "wrx735sdhz"
+          "pid" : "wrx735sdhz",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387321/Unyte/whirpool_i3dfgi.png"
       },
       {
           "brand": "Rolex",
@@ -222,7 +237,8 @@
           "water_resistance": "100m",
           "case_size": "42mm",
           "movement": "Automatic",
-          "pid": "submariner"
+          "pid": "submariner",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387323/Unyte/Rolex_ddnpbp.png"
       },
       {
           "brand": "Omega",
@@ -236,7 +252,8 @@
           "water_resistance": "100m",
           "case_size": "42mm",
           "movement": "Automatic",
-          "pid" : "seamaster"
+          "pid" : "seamaster",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387327/Unyte/Seamaster_jrakzx.png"
       },
       {
           "brand": "Casio",
@@ -250,7 +267,8 @@
           "water_resistance": "100m",
           "case_size": "42mm",
           "movement": "Automatic",
-          "pid" : "g-shock"
+          "pid" : "g-shock",
+          "imgUrl": "https://res.cloudinary.com/ecx/image/upload/v1711387330/Unyte/G_Shock_ojq8sc.png"
       }
   ]
 }
